@@ -5,6 +5,7 @@ import CatalogueCard from "./CatalogueCard";
 import axios from "axios";
 import { USER_PRODUCTS_API_END_POINT, ADMIN_PRODUCTS_API_END_POINT } from "../../utils/constant";
 import { toast } from "sonner";
+const BACKEND_URL = 'https://milk-delivery-system-backend.onrender.com';
 
 const ProductsCatalogue = ({ isAdmin = false }) => {
   const scrollRef = useRef(null);

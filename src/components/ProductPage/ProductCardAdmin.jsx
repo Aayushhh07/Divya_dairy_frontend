@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Trash2, Edit } from "lucide-react";
 import { Button } from "@/components/ui/button";
+const BACKEND_URL = 'https://milk-delivery-system-backend.onrender.com';
 
 const AdminProductCard = ({ product, onDelete, onEdit }) => {
   const [imageError, setImageError] = useState(false);
