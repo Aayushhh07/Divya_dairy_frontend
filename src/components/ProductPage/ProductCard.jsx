@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-const BACKEND_URL = 'https://milk-delivery-system-backend.onrender.com';
 
 const ProductCard = ({ product }) => {
   const [imageError, setImageError] = useState(false);

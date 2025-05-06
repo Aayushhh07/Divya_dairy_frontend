@@ -5,7 +5,6 @@ import { CategorySection } from "../ProductPage/ProductCard";
 import { USER_PRODUCTS_API_END_POINT } from "../../utils/constant";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
-const BACKEND_URL = 'https://milk-delivery-system-backend.onrender.com';
 
 const categoriesData = [
   { id: 1, name: "Milk", icon: "🥛" },
